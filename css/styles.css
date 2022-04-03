@@ -1,0 +1,252 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3; 
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+/* Header */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.logo-black {
+    color: #000;
+}
+
+.site-nav {
+    list-style: none;
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+.nav-studio {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    cursor: default;
+}
+.nav-studio:hover,
+.nav-studio:focus {
+    color: var(--accent-color);
+ }
+
+.nav-portfolio    {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+    color: var(--accent-color);
+}
+
+.nav-contacts {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav-contacts:hover,
+.nav-contacts:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    list-style: none;
+}
+
+.link-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.link-mail:hover,
+.link-mail:focus {
+    color: var(--accent-color); 
+}
+
+.link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.link-tel:hover,
+.link-tel:focus {
+    color: var(--accent-color);
+}
+
+/* Секция 1 (Эффективное решение для вашего бизнеса)  */
+.hero-section {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background-color: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #188CE8;
+}
+
+/* Секция 2 (Список преимуществ) */
+.advantage-list {
+    list-style: none;
+}
+.advantage-title {
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+/* Секция 3 (Чем мы занимаемся?) */
+.projects-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.projects-list {
+    list-style: none;
+}
+
+.team-section {
+    background-color: #F5F4FA;
+}
+
+.team-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.member-card {
+    background-color: var(--primary-white-color);
+    width: 270px;
+}
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.member-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center; 
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.bottom-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+.address-list {
+    list-style: none;
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: default;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #FFFFFF;
+}

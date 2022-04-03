@@ -20,7 +20,6 @@ body {
   line-height: 1.2;
   color: var(--accent-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .logo-black {
@@ -42,7 +41,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  cursor: default;
 }
 .nav-studio:hover,
 .nav-studio:focus {
@@ -56,7 +54,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .nav-portfolio:hover,
@@ -71,7 +68,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .nav-contacts:hover,
@@ -90,7 +86,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .link-mail:hover,
@@ -105,7 +100,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .link-tel:hover,
@@ -223,7 +217,6 @@ footer {
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
-  cursor: default;
 }
 
 .logo-white {
@@ -241,7 +234,6 @@ footer {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  cursor: default;
 }
 
 .address-link:hover,

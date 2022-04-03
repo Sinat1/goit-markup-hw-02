@@ -265,6 +265,7 @@ footer {
   text-align: center;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
